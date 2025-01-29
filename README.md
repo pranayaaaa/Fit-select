@@ -1,8 +1,15 @@
-# React + Vite - Fit-select
+# Fit-Select - Interest React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Fit-Select** is an interactive product selection app that helps users explore and choose fitness products based on their preferences. 
+The app provides an engaging user interface where users can browse various fitness products and mark them as "Interested" or "Not Interested." When a user clicks on the "Interested" button, the other cards are hidden, allowing users to focus on their selection.
 
-Currently, two official plugins are available:
+## Features
+- Each product is displayed in a card with details such as name, price, and description.
+- Users can mark products as "Interested" by clicking the button, which hides other product cards.
+- The app is built with a responsive layout using Tailwind CSS, ensuring a smooth experience across all devices.
+- The app uses React's state management (useState) to track user interaction with product cards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling the application.
+- **JavaScript**: Core programming language for functionality and interactions.
